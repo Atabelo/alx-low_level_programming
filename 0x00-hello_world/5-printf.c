@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
-* *
 * * main - Entry point
-* *
-*  * Return: Always 0 (Success)
+*Descrption: 'Output the size of dataType'
+* Return: Always 0 (Success)
 */
 int main(void)
 {

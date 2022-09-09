@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+
 /**
  * main - Entry point
  * Descrption: 'Output the size of dataType'
@@ -8,6 +9,7 @@
 int main(void)
 {
 int i, i2;
+
 i = 0;
 while (i <= 98)
 {

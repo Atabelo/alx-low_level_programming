@@ -3,7 +3,6 @@
 
 /**
  * main - Entry point
- * Descrption: 'Output the size of dataType'
  * Return: Always 0 (Success)
  */
 int main(void)

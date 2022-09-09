@@ -1,37 +1,34 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
- * main - Entry point
+ * main - create 2 pairs of numbers that do not repeat
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i, i2;
-
-i = 0;
-while (i <= 98)
+int j, i;
+for (j = 0; j <=99; j++)
 {
-i2 = i + 1;
-while (i2 <= 99)
+for (i = j; i <=99; i++)
 {
-putchar(i / 10 + '0');
-putchar(i % 10 + '0');
+if (i != j)
+{
+putchar(j / 10 + 48);
+putchar(j % 10 + 48);
 putchar(' ');
-putchar(i2 / 10 + '0');
-putchar(i2 % 10 + '0');
-if (i == 98 && i2 == 99)
-{
-putchar('\n');
-}
-else
+putchar(i / 10 + 48);
+putchar(i % 10 + 48);
+
+if (j * 100 + i != 9899)
 {
 putchar(',');
 putchar(' ');
 }
-12++;
 }
-i++;
+
 }
+
+}
+putchar ('\n');}
 return (0);
 }

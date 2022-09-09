@@ -2,7 +2,7 @@
 
 /**
  * main - create 2 pairs of numbers that do not repeat
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(void)
 {

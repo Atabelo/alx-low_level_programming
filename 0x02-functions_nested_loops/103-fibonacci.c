@@ -16,7 +16,7 @@ while (r < 4000000)
 r = a + b;
 a = b;
 b = r;
-if (r % 2 == 0
+if (r % 2 == 0)
 
 {
 p = r + p;

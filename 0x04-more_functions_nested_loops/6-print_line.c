@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * * print_line - prints a line n chars long
- * * @n: length of line
- * *
- * * Return: void
- */
+* print_line - prints a line n chars long
+* @n: length of line
+* *
+* Return: void
+*/
 void print_line(int n)
 {
 int i;
@@ -18,7 +18,7 @@ else
 for (i = 1; i <= n; i++)
 {
 _putchar('_');
-{
+}
 _putchar('\n');
 }
 }

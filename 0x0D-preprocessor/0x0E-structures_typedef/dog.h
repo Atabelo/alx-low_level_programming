@@ -2,6 +2,11 @@
 #define STRTYP
 
 /**
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+
+/**
  * struct dog - structure definition of a dog
  * @name: dog name
  * @age: dog age
